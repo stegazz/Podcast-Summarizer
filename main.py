@@ -35,12 +35,12 @@ llm = ChatOpenAI(temperature=0, client=engine)
 
 text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=50)
 
-# Open trascrizione.txt
-with open("trascrizione.txt", "r") as f:
-    trascrizione = f.read()
+# Open transcription.txt
+with open("transcription.txt", "r") as f:
+    transcription = f.read()
 
 # Split the document into parts
-texts = text_splitter.split_text(trascrizione)
+texts = text_splitter.split_text(transcription)
 
 docs = [Document(page_content=t) for t in texts]
 
