@@ -13,7 +13,8 @@ Before running the program, ensure you have the following:
 Python installed on your system.
 The required Python packages installed. You can install the necessary packages using pip:
 
-pip install langchain
+`pip install langchain`
+
 
 # Installation and Usage
 Clone this repository to your local machine.
@@ -24,7 +25,7 @@ Prepare the podcast transcription you want to summarize and save it in a file na
 
 Run the script using the following command:
 
-python main.py
+`python main.py`
 
 
 The program will prompt you to choose the version of GPT to use (gpt-3.5-turbo or gpt-4). Enter the corresponding number (1 or 2) to proceed.
